@@ -9,10 +9,12 @@ img {
 
 .titulo-principal {
     padding-left: 20px;
+    font-size: 30px;
 }
 
 .titulo-centralizado {
     text-align: center;
+    font-size: 20px;
 }
 
 p1, p3 {
