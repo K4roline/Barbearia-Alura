@@ -37,6 +37,10 @@ nav a:active {
     border-color: aquamarine;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -76,7 +80,7 @@ form label, form legend {
     text-decoration: underline;
     width: 12%;
     background-color: rgb(64, 138, 64);
-    transition: 1s;
+    transition: 300ms;
     cursor: pointer;
 }
 
