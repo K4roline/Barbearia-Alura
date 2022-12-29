@@ -120,6 +120,13 @@ ul {
 .beneficiosimg {
     width: 40%;
     height: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.beneficiosimg:hover {
+    opacity: 0.3;
 }
 
 .video {
@@ -137,4 +144,22 @@ footer {
     color: white;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+@media screen and (max-width:480px) {
+    .caixa, .inicio, .conteudo-beneficios, .mapa, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .itens-beneficios, .beneficiosimg {
+        width: 100%;
+    }
 }
