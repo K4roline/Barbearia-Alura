@@ -116,3 +116,14 @@ footer {
     margin: 20px 0 0;
 }
 
+/* @media screen and (max-width:480px) {
+    .caixa, .produtos, footer {
+        width: auto;
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+} */
