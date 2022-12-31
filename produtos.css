@@ -107,6 +107,18 @@ footer {
         text-align: center;
     }
 
+    .produtos ul {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .produtos li {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
     nav {
         position: static;
     }

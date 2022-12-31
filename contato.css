@@ -56,6 +56,10 @@ form label, form legend {
     margin: 0 0 10px;
 }
 
+legend {
+    padding-top: 20px;
+}
+
 .input-padrao {
     display: block;
     margin: 0 0 20px;
@@ -116,14 +120,40 @@ footer {
     margin: 20px 0 0;
 }
 
-/* @media screen and (max-width:480px) {
-    .caixa, .produtos, footer {
+
+@media screen and (max-width:480px) {
+    .caixa, footer {
         width: auto;
         text-align: center;
     }
-
+    
     nav {
         position: static;
     }
 
-} */
+    main {
+        width: 100%;
+    }
+
+    form {
+        padding-left: 10px;
+    }
+
+    select {
+        width: 90px;
+        height: 30px;
+    }
+
+    .enviar {
+        width: 90px;
+    }
+
+    table {
+        margin: 20px auto;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+}
